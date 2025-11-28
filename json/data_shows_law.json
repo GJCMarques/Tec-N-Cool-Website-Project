@@ -22,7 +22,7 @@
         ],
         "trailer": "https://youtu.be/y5Bej03OGBA?si=nEh2QZ0uyOXE8W1t",
         "storyline": "Ally McBeal follows Ally McBeal, a talented but emotionally unstable lawyer working at the eccentric Boston law firm Cage & Fish. The show presents unusual legal cases and Ally’s personal life, particularly her struggles with love and relationships- especially when she reunites with her former love, Billy, who is now married to another woman.",
-        "image": "../thumbnails/Ally_McBeal_show.jpeg"
+        "image": "thumbnails/Ally_McBeal_show.jpeg"
     },
     {
         "id": "2",
@@ -44,7 +44,7 @@
         ],
         "trailer": "https://youtu.be/WMKf88i6maQ?si=JYhfQN4BIlkndfcX",
         "storyline": "Boston Legal is a spin-off of The Practice that follows the daily operations of the prestigious Boston law firm Crane, Poole & Schmidt, focusing on unusual legal cases and the personal lives of its eccentric lawyers.",
-        "image": "../thumbnails/Boston_Legal_show.jpeg"
+        "image": "thumbnails/Boston_Legal_show.jpeg"
     },
     {
         "id": "3",
@@ -68,7 +68,7 @@
         ],
         "trailer": "https://youtu.be/a_oo8PDJzyE?si=bcTH571VIEQvGtra",
         "storyline": "The show follows the intense and high-stakes world of litigation through the perspective of Patty Hewes, a ruthless and brilliant attorney, and her ambitious young protégé, Ellen Parsons",
-        "image": "../thumbnails/Damages_show.jpeg"
+        "image": "thumbnails/Damages_show.jpeg"
     },
     {
         "id": "4",
@@ -91,7 +91,7 @@
         ],
         "trailer": "https://youtu.be/l4AnDL3w-qU?si=WAEOGvbvJTNZzIKN",
         "storyline": "Franklin & Bash follows two unconventional and charismatic lawyers, Jared Franklin and Peter Bash, who are best friends and skilled attorneys known for their unorthodox tactics in the courtroom.",
-        "image": "../thumbnails/Franklin_&_Bash_show.jpeg"
+        "image": "thumbnails/Franklin_&_Bash_show.jpeg"
     },
     {
         "id": "5",
@@ -114,7 +114,7 @@
         ],
         "trailer": "https://youtu.be/dkb-aBaxkVk?si=7i7B_t3iDWeUY2fE",
         "storyline": "The show follows Annalise Keating, a brilliant and charismatic law professor and defense attorney, who, along with her students, becomes entangled in a series of murder cases that change their lives forever.",
-        "image": "../thumbnails/How_to_Get_Away_with_Murder_show.jpg"
+        "image": "thumbnails/How_to_Get_Away_with_Murder_show.jpg"
     },
     {
         "id": "6",
@@ -138,7 +138,7 @@
         ],
         "trailer": "https://youtu.be/85z53bAebsI?si=gpujKv570gnDKggr",
         "storyline": "Suits follows the story of Harvey Specter, a top New York attorney known for his confidence, charm, and sharp legal mind, and Mike Ross, a brilliant college dropout with a photographic memory who, despite never attending law school, lands a job as Harvey’s associate at the prestigious law firm Pearson Hardman.",
-        "image": "../thumbnails/Suits_show.jpg"
+        "image": "thumbnails/Suits_show.jpg"
     },
     {
         "id": "7",
@@ -160,7 +160,7 @@
         ],
         "trailer": "https://youtu.be/Q8BWE2gzEvo?si=eIZnIrdB-6QqOBKT",
         "storyline": "Alicia Florrick has been a good wife to her husband, a former state's attorney. After a very humiliating sex and corruption scandal, he is behind bars. She must now provide for her family and returns to work as a litigator in a law firm.",
-        "image": "../thumbnails/The_Good_Wife_show.jpg"
+        "image": "thumbnails/The_Good_Wife_show.jpg"
     },
     {
         "id": "8",
@@ -185,6 +185,6 @@
         ],
         "trailer": "https://youtu.be/XCwowN4pYEc?si=lUvQQEn09GfcVWyK",
         "storyline": "The show focuses on the personal and professional lives of a group of defense attorneys at the small but determined Boston law firm Donnell, Young, Dole & Frutt, led by Bobby Donnell.",
-        "image": "../thumbnails/The_Practice_show.jpg"
+        "image": "thumbnails/The_Practice_show.jpg"
     }
 ]

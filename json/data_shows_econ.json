@@ -17,7 +17,7 @@
         ],
         "trailer": "https://youtu.be/Wj9KrM0JskA?si=dRLHG08ZYFIWsle4",
         "storyline": "Industry is a drama series that follows a group of young graduates competing for permanent positions at Pierpoint & Co, a prestigious London investment bank. As they navigate the high-pressure world of finance, they face intense competition, moral dilemmas, and personal struggles. The show explores themes of power, ambition, and the dark side of corporate culture, blending workplace drama with personal relationships.",
-        "image": "../thumbnails/Industry_show.jpg"
+        "image": "thumbnails/Industry_show.jpg"
     },
     {
         "id": "2",
@@ -37,7 +37,7 @@
         ],
         "trailer": "https://youtu.be/o2yEnwgvsts?si=674TDCw5W-t7jF-T",
         "storyline": "Travel back to October 19, 1987 (aka Black Monday), the worst stock market crash in the history of Wall Street. The people responsible for the crash were a mystery - until now. This is the story of how a group of outsiders took on the blue blood, old boys' club of Wall Street and ended up crashing the world's largest financial system, a Lamborghini limousine, and the glass ceiling.",
-        "image": "../thumbnails/Black_Monday_show.jpg"
+        "image": "thumbnails/Black_Monday_show.jpg"
     },
     {
         "id": "3",
@@ -58,7 +58,7 @@
         ],
         "trailer": "https://youtu.be/CsplLiZHbj0?si=BSRo3G3tzp-whb6R",
         "storyline": "Dirty Money is a documentary series that explores cases of corporate greed, corruption, and financial crimes around the world. Each episode investigates real-life scandals involving powerful corporations and individuals, uncovering fraud, money laundering, and unethical business practices.",
-        "image": "../thumbnails/Dirty_Money_show.jpeg"
+        "image": "thumbnails/Dirty_Money_show.jpeg"
     },
     {
         "id": "4",
@@ -78,7 +78,7 @@
         ],
         "trailer": "https://youtu.be/UREIAoL0Spk?si=ohriMxlBeFmNoh4e",
         "storyline": "WeCrashed is a drama miniseries based on the rise and fall of WeWork, one of the most valuable startups in the world. Starring Jared Leto as Adam Neumann and Anne Hathaway as his wife, Rebekah Neumann, the series follows the couple’s ambitious journey to turn WeWork into a global empire.",
-        "image": "../thumbnails/WeCrashed_show.jpg"
+        "image": "thumbnails/WeCrashed_show.jpg"
     },
     {
         "id": "5",
@@ -100,7 +100,7 @@
         ],
         "trailer": "https://youtu.be/VtvfbGRDJbY?si=bXcaZweNfta3QoAy",
         "storyline": "The series centers around young Swedish tech entrepreneur, Daniel Ek, and his partner Martin Lorentzon, who revolutionized a whole industry by offering free and legal streamed music around the world. It is a story about how hard convictions, unrelenting will, access and big dreams can help small players challenge the status quo.",
-        "image": "../thumbnails/The_Playlist_show.jpg"
+        "image": "thumbnails/The_Playlist_show.jpg"
     },
     {
         "id": "6",
@@ -121,7 +121,7 @@
         ],
         "trailer": "https://youtu.be/VMP21LO0Guc?si=GWB9dNiDplFZG5iH",
         "storyline": "Super Pumped: The Battle for Uber is a drama series that chronicles the rise of Uber and its controversial CEO, Travis Kalanick. The show focuses on the disruptive journey of the ride-sharing company, exploring the challenges Kalanick faced while building Uber into a global giant.",
-        "image": "../thumbnails/Super_Pumped_show.jpg"
+        "image": "thumbnails/Super_Pumped_show.jpg"
     },
     {
         "id": "7",
@@ -142,7 +142,7 @@
         ],
         "trailer": "https://youtu.be/OzYxJV_rmE8?si=Z5DbZAyByEalQ4nj",
         "storyline": "The Roy family controls the biggest media and entertainment company in the world. As they fight for control of the company, and each other, their lack of morals is exposed at every turn. This family has no redeeming character values, and neither does any person attached to them.",
-        "image": "../thumbnails/Succession_show.jpg"
+        "image": "thumbnails/Succession_show.jpg"
     },
     {
         "id": "8",
@@ -163,7 +163,7 @@
         ],
         "trailer": "https://youtu.be/Sm5zbB2FLbM?si=MdxnS2Bpd579fWnn",
         "storyline": "This seven-part limited series from the bestselling book is about Roger Ailes, the founder of Fox News. To understand the events that led to the rise of the modern Republican party, one must understand Ailes.",
-        "image": "../thumbnails/The_Loudest_Voice_show.jpg"
+        "image": "thumbnails/The_Loudest_Voice_show.jpg"
     },
     {
         "id": "9",
@@ -185,7 +185,7 @@
         ],
         "trailer": "https://youtu.be/KVKOWU8cZX8?si=HHlRN_SUzsmi2K6N",
         "storyline": "McMillions is a documentary series that explores the true story of the McDonald’s Monopoly game scam that took place between the 1990s and early 2000s. The series follows how a group of criminals managed to steal high-value game pieces from the promotion and sell them for millions of dollars.",
-        "image": "../thumbnails/McMillions_show.jpg"
+        "image": "thumbnails/McMillions_show.jpg"
     },
     {
         "id": "10",
@@ -206,7 +206,7 @@
         ],
         "trailer": "https://youtu.be/OKduYvZ1TYo?si=Zvx_olYcNvMAoxjo",
         "storyline": "This Danish drama series follows the intricate, complicated lives of the politicians, media spinners, and reporters who feed off their triumphs and failures in 'Borgen' (the Castle)--the nickname for Denmark's parliamentary building.",
-        "image": "../thumbnails/Borgen_show.jpg"
+        "image": "thumbnails/Borgen_show.jpg"
     },
     {
         "id": "11",
@@ -228,7 +228,7 @@
         ],
         "trailer": "https://youtu.be/N3uLkyboKTk?si=C3Q2hkXepal6621e",
         "storyline": "Ambitious Jana is confronted with the unscrupulous machinations of the world of finance. Her working life is determined by egotism, the pressure to succeed and misogyny. She soon has to decide how far she is prepared to go for her career.",
-        "image": "../thumbnails/Bad_Banks_show.jpg"
+        "image": "thumbnails/Bad_Banks_show.jpg"
     },
     {
         "id": "12",
@@ -249,7 +249,7 @@
         ],
         "trailer": "https://youtu.be/2ynYX48tYS0?si=tcDfN-u7Qvqa98AZ",
         "storyline": "An idealistic banker takes on corruption and wrongdoing at his corporate bank. He must use his financial expertise, his instincts about human nature, and his skills of improvisation to try to stay one step ahead of his powerful enemies.",
-        "image": "../thumbnails/Hanzawa_Naoki_show.jpeg"
+        "image": "thumbnails/Hanzawa_Naoki_show.jpeg"
     },
     {
         "id": "13",
@@ -271,7 +271,7 @@
         ],
         "trailer": "https://youtu.be/BemKyzbLDDc?si=waEwAKDrjrz8du7L",
         "storyline": "Young entrepreneurs aspiring to launch virtual dreams into reality compete for success and love in the cutthroat world of Korea's high-tech industry.",
-        "image": "../thumbnails/Start_up_show.jpg"
+        "image": "thumbnails/Start_up_show.jpg"
     },
     {
         "id": "14",
@@ -293,7 +293,7 @@
         ],
         "trailer": "https://youtu.be/U6OhUXvtrpk?si=xTJcrVj-PTDlz_dF",
         "storyline": "Explores the real-life conspiracy underlying the beginning of the 2015 FIFA Gate corruption scandal. The series covers how this house of cards fell apart because of Sergio Jadue, unknown B-league Chilean soccer club president.",
-        "image": "../thumbnails/El_Presidente_show.jpg"
+        "image": "thumbnails/El_Presidente_show.jpg"
     },
     {
         "id": "15",
@@ -313,7 +313,7 @@
         ],
         "trailer": "https://youtu.be/80NBF4O-guM?si=TfuqQKeyS3UwqwGp",
         "storyline": "Dramatic fiction series loosely inspired by an investigation of corruption in Brazil's private and state oil companies and construction companies.",
-        "image": "../thumbnails/O_Mecanismo_show.jpg"
+        "image": "thumbnails/O_Mecanismo_show.jpg"
     },
     {
         "id": "16",
@@ -335,7 +335,7 @@
         ],
         "trailer": "",
         "storyline": "The plot of the show centres on Vic Morgan (Rob Deleeuw), an adult film director of a low-budget softcore pornographic series similar to Girls Gone Wild. He attempts to become a legitimate film maker after having converted to Judaism to be successful in the entertainment industry. Season one depicts the production of his first independent film and the difficulties along the way with an undisciplined production staff, poorly skilled actors, and an eccentric Japanese investor. Season two follows the company following the success of its first film as they search for a follow-up project.",
-        "image": "../thumbnails/The_Business_show.jpg"
+        "image": "thumbnails/The_Business_show.jpg"
     },
     {
         "id": "17",
@@ -359,7 +359,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=_raEUMLL-ZI",
         "storyline": "Billions is an American television drama series created by Brian Koppelman, David Levien, and Andrew Ross Sorkin, starring Paul Giamatti and Damian Lewis premiering on Showtime. The series is loosely based on the activities of crusading federal prosecutor of financial crimes Preet Bharara, the U.S. Attorney for the Southern District of New York, and his legal battles with hedge fund manager Steve Cohen of SAC Capital.",
-        "image": "../thumbnails/Billions_show.jpg"
+        "image": "thumbnails/Billions_show.jpg"
     },
     {
         "id": "18",
@@ -383,7 +383,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=cmHeKAF6vwI",
         "storyline": "Bull is an American drama series created by Michael S. Chernuchin. It was TNT's first original series, and was cancelled in the middle of Season 1. The show's name is in reference to the bull market, but the airing of the series coincided with the dot-com bubble crash that turned what had until then been a bull economy in the United States into a bear market. Bull is about a group of Wall Street investment bankers that risk everything to break away from an established firm and start their own company. Leading the way is Robert \"Ditto\" Roberts III, the brilliant grandson of the founder of their former company who must betray his family heritage in order to stake a claim to his own life. His partners - Corey Granville, Marty Decker, Carson Boyd, Alison Jeffers and Marissa Rufo - each with a separate agenda, risk losing everything to join him in the new rival start-up firm that will answer the call of the new economy. With no financing, no clients and the rivalry of every player in town, the team's dreams rest on Hunter Lasky, the hard-hitting negotiations shark who has the potential to give the renegade team of Wall Street brokers the edge and legitimacy they need to succeed in the competitive world of high finance.",
-        "image": "../thumbnails/Bull_show.jpg"
+        "image": "thumbnails/Bull_show.jpg"
     },
     {
         "id": "19",
@@ -413,7 +413,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=iPkQImC3VOw",
         "storyline": "Popular evening 'soap-opera' style television drama. The show was set in Dallas and chronicled the exploits of wealthy Texas oil millionaires. Many of the plots revolved around shady business dealings and dysfunctional family dynamics.",
-        "image": "../thumbnails/Dallas_show.jpg"
+        "image": "thumbnails/Dallas_show.jpg"
     },
     {
         "id": "21",
@@ -444,7 +444,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=oftDrdDBTkw",
         "storyline": "The saga of a wealthy Denver family in the oil business: Blake Carrington, the patriarch; Krystle, his former secretary and wife; his children: Adam, lost in childhood after a kidnapping; Fallon, pampered and spoiled; Steven, openly gay; and Amanda, hidden from him by his ex-wife, the conniving Alexis. Most of the show features the conflict between 2 large corporations, Blake's Denver Carrington and Alexis' ColbyCo.",
-        "image": "../thumbnails/Dynasty_show.jpg"
+        "image": "thumbnails/Dynasty_show.jpg"
     },
     {
         "id": "22",
@@ -468,7 +468,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=7KeQC_JQfhE",
         "storyline": "Set in the 1980s, this series dramatizes the personal computing boom through the eyes of a visionary, an engineer and a prodigy whose innovations directly confront the corporate behemoths of the time. Their personal and professional partnership will be challenged by greed and ego while charting the changing culture in Texas' Silicon Prairie.",
-        "image": "../thumbnails/Halt_and_Catch_Fire_show.jpg"
+        "image": "thumbnails/Halt_and_Catch_Fire_show.jpg"
     },
     {
         "id": "23",
@@ -491,7 +491,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=PJg0KoQIy48",
         "storyline": "Kardes Payi is a Turkish television sitcom produced by NTC Medya. The show is about two brothers (Ahmet Kural and Murat Cemcir) and a sister (Seda Bakan). The two brothers are plumbers, however they are trying to invent a motor, working with water so they could make the world a better place.",
-        "image": "../thumbnails/Kardes_Payi_show.jpg"
+        "image": "thumbnails/Kardes_Payi_show.jpg"
     },
     {
         "id": "24",
@@ -511,7 +511,7 @@
         ],
         "trailer": "",
         "storyline": "John Maynard Keynes and Friedrich August Hayek were two prominent economists of the Great Depression era with sharply contrasting views. The arguments they had in the 1930s have been revived in the wake of the latest global financial crisis.",
-        "image": "../thumbnails/Keynes_vs_Hayek,_a_Fake_Debate_show.jpg"
+        "image": "thumbnails/Keynes_vs_Hayek,_a_Fake_Debate_show.jpg"
     },
     {
         "id": "25",
@@ -539,7 +539,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=m7NChV93LBw",
         "storyline": "The professional and personal lives of those who work in advertising on Madison Avenue - self-coined \"mad men\" - in the 1960s are presented. The stories focus on those at one of the avenue's smaller firms, Sterling Cooper, and its various incarnations over the decade. At the heart of these stories is Donald Draper, the creative genius of the company. That professional creative brilliance belies the fact of a troubled childhood, one that he would rather forget and not let anyone know about except for a select few, but one that shaped who he is as an adult and as an ad man in the need not only to sell products but sell himself to the outside world. His outward confidence also masks many insecurities as evidenced through his many vices, such as excessive smoking, drinking and womanizing - the latter despite being a family man - and how he deals with the aftermath of some of the negative aspects of his life.",
-        "image": "../thumbnails/Mad_Man_show.jpg"
+        "image": "thumbnails/Mad_Man_show.jpg"
     },
     {
         "id": "26",
@@ -558,7 +558,7 @@
         ],
         "trailer": "https://www.bing.com/videos/search?q=mafiosa+trailer&&view=detail&mid=EBDCD15D73417BB26201EBDCD15D73417BB26201&FORM=VRDGAR",
         "storyline": "By the will of her murdered uncle, the Corsican mafia boss François Paoli, the clan's lawyer, Sandra Paoli (Hélène Fillières), suddenly finds herself the head of the clan. Backed up by her brother, Jean-Michel Paoli, she learns how to assert herself in a very violent world and becomes a respected, but also hated, woman in a world of men, murder and criminality. Taking over the reign of violence, money, drug and sex in a world of it's own : Corsica.",
-        "image": "../thumbnails/Mafiosa_show.jpg"
+        "image": "thumbnails/Mafiosa_show.jpg"
     },
     {
         "id": "27",
@@ -585,7 +585,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=uzGfpaeZejM",
         "storyline": "nce he was a child, the board game baduk has been everything to Jang Geu-rae. But when he fails at achieving his dream of becoming a professional baduk player, Geu-rae must leave his isolated existence and enter the real world armed with nothing but a high school equivalency exam on his resume. Through an acquaintance's recommendation, he gets hired as an intern at One International, a large trading company. There, Geu-rae meets his boss, manager Oh Sang-shik, who's a workaholic and has a warm personality; fellow intern Ahn Young-yi, who attracts her colleagues' ire because of her impressive educational credentials and by being extremely competent at any task; and Jang Baek-gi, a geeky co-worker whose anxious nature masks his inner ambition. Geu-rae learns to navigate and adapt to corporate culture, with baduk as his guide.",
-        "image": "../thumbnails/Misaeng_(An_Incomplete_Life)_show.jpg"
+        "image": "thumbnails/Misaeng_(An_Incomplete_Life)_show.jpg"
     },
     {
         "id": "28",
@@ -611,7 +611,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=U94litUpZuc",
         "storyline": "Elliot Alderson is a young cyber-security engineer living in New York, who assumes the role of a vigilante hacker by night. Elliot meets a mysterious anarchist known as «Mr. Robot» who recruits Elliot to join his team of hackers, «fsociety». Elliot, who has a social anxiety disorder and connects to people by hacking them, is intrigued but uncertain if he wants to be part of the group. The show follows Mr. Robot's attempts to engage Elliot in his mission to destroy the corporation Elliot is paid to protect. Compelled by his personal beliefs, Elliot struggles to resist the chance to take down the multinational CEOs that are running (and ruining) the world.",
-        "image": "../thumbnails/Mr._Robot_show.jpg"
+        "image": "thumbnails/Mr._Robot_show.jpg"
     },
     {
         "id": "29",
@@ -634,7 +634,7 @@
         ],
         "trailer": "https://youtu.be/U7elNhHwgBU",
         "storyline": "Narcos tells the story of Pablo Escobar, who rose from the extremely mean streets of Medellín, Colombia, to control the largest drug empire of all time, and the story of the American DEA agents struggling to defeat him.",
-        "image": "../thumbnails/Narcos_show.jpg"
+        "image": "thumbnails/Narcos_show.jpg"
     },
     {
         "id": "30",
@@ -663,7 +663,7 @@
         ],
         "trailer": "https://www.youtube.com/watch?v=69V__a49xtw",
         "storyline": "In the high-tech gold rush of modern Silicon Valley, the people most qualified to succeed are the least capable of handling success. A comedy partially inspired by Mike Judge's own experiences as a Silicon Valley engineer in the late 1980s.",
-        "image": "../thumbnails/Silicon_Valley_show.jpg"
+        "image": "thumbnails/Silicon_Valley_show.jpg"
     },
     {
         "id": "31",
@@ -684,6 +684,6 @@
         ],
         "trailer": "https://www.youtube.com/channel/UCDWDuzt1WOxAZ7bb5LZ5LiA/videos",
         "storyline": "An HD documentary series examining the extreme power and intense competition that defines Wall Street, seen through the eyes of those who thrive there.",
-        "image": "../thumbnails/Wall_Street_Warriors_show.jpg"
+        "image": "thumbnails/Wall_Street_Warriors_show.jpg"
     }
 ]

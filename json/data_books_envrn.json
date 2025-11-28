@@ -9,7 +9,7 @@
         "ISBN": "9781473217324",
         "more_info": "https://www.goodreads.com/book/show/35642331-austral",
         "synopsis": "Blending the story of Austral's flight with the fractured history of her family and its role in the colonisation of Antarctica, Austral is a vivid portrayal of a treacherous new world created by climate change, and shaped by the betrayals and mistakes of the past.",
-        "image": "../thumbnails/Austral_book.jpg"
+        "image": "thumbnails/Austral_book.jpg"
     },
     {
         "id": 2,
@@ -21,7 +21,7 @@
         "ISBN": "9780393881141",
         "more_info": "https://www.goodreads.com/book/show/56404444-bewilderment",
         "synopsis": "The astrobiologist Theo Byrne searches for life throughout the cosmos while single-handedly raising his unusual nine-year-old, Robin, following the death of his wife. Robin is a warm, kind boy who spends hours painting elaborate pictures of endangered animals. He’s also about to be expelled from third grade for smashing his friend in the face. As his son grows more troubled, Theo hopes to keep him off psychoactive drugs. He learns of an experimental neurofeedback treatment to bolster Robin’s emotional control, one that involves training the boy on the recorded patterns of his mother’s brain…",
-        "image": "../thumbnails/Bewilderment_book.png"
+        "image": "thumbnails/Bewilderment_book.png"
     },
     {
         "id": 3,
@@ -33,7 +33,7 @@
         "ISBN": "9781324005032",
         "more_info": "https://www.goodreads.com/book/show/55298364-a-children-s-bible",
         "synopsis": "A Children's Bible is a climate fiction novel by Lydia Millet that documents the experience of a group of children in the face of climate change as their parents fail to respond to a climate-charged hurricane. It was her 13th novel.",
-        "image": "../thumbnails/A_Childrens_Bible_book.jpg"
+        "image": "thumbnails/A_Childrens_Bible_book.jpg"
     },
     {
         "id": 4,
@@ -45,7 +45,7 @@
         "ISBN": "9781471193842",
         "more_info": "https://www.goodreads.com/book/show/54970000-dreamland",
         "synopsis": "Set in a future unsettlingly close to home, against a backdrop of soaring inequality and creeping political extremism, Rankin-Gee demonstrates, with cinematic pace and deep humanity, the enduring power of love and hope in a world spinning out of control.",
-        "image": "../thumbnails/Dreamland_book.jpg"
+        "image": "thumbnails/Dreamland_book.jpg"
     },
     {
         "id": 5,
@@ -57,7 +57,7 @@
         "ISBN": "9781250105608",
         "more_info": "https://www.goodreads.com/book/show/27824826-the-dry",
         "synopsis": "Federal Police agent Aaron Falk returns to the struggling farming community of Kiewarra for the funeral of his childhood best friend, Luke Hadler. Severe drought has put the town under extreme pressure and the community is shocked but not surprised when the Hadler family is found dead in their farmhouse. While Falk is loath to confront the townspeople who rejected him twenty years earlier, the circumstances around the deaths of the Hadlers, that appears to be a murder–suicide, compels him to dig deeper into the events leading up to the tragedy.",
-        "image": "../thumbnails/The_Dry_book.jpg"
+        "image": "thumbnails/The_Dry_book.jpg"
     },
     {
         "id": 6,
@@ -69,7 +69,7 @@
         "ISBN": "9781501172830",
         "more_info": "https://www.goodreads.com/book/show/50782151-exposure",
         "synopsis": "Poisoned water, corporate greed, and one lawyer’s twenty-year battle against DuPont. Exposure is an unforgettable legal drama about malice and manipulation, the failings of environmental regulation, and one lawyer’s quest to expose the truth about this previously unknown—and still unregulated—chemical that presents one of the greatest human health crises of the 21st century.",
-        "image": "../thumbnails/Exposure_book.jpg"
+        "image": "thumbnails/Exposure_book.jpg"
     },
     {
         "id": 7,
@@ -81,7 +81,7 @@
         "ISBN": "9780801950773",
         "more_info": "https://www.goodreads.com/book/show/44767458-dune",
         "synopsis": "Melange, or 'spice', is the most valuable - and rarest - element in the universe; a drug that does everything from increasing a person's life-span to making interstellar travel possible. And it can only be found on a single planet: the inhospitable desert world Arrakis. Whoever controls Arrakis controls the spice. And whoever controls the spice controls the universe.",
-        "image": "../thumbnails/Dune_book.jpg"
+        "image": "thumbnails/Dune_book.jpg"
     },
     {
         "id": 8,
@@ -93,7 +93,7 @@
         "ISBN": "9780802128591",
         "more_info": "https://www.goodreads.com/book/show/33858905-the-end-we-start-from",
         "synopsis": "This is a story of new motherhood in a terrifying setting: a familiar world made dangerous and unstable, its people forced to become refugees. Startlingly beautiful, Megan Hunter's The End We Start From is a gripping novel that paints an imagined future as realistic as it is frightening. And yet, though the country is falling apart around them, this family’s world – of new life and new hope – sings with love.",
-        "image": "../thumbnails/The_End_We_Start_From_book.jpg"
+        "image": "thumbnails/The_End_We_Start_From_book.jpg"
     },
     {
         "id": 9,
@@ -105,7 +105,7 @@
         "ISBN": "9780399184604",
         "more_info": "https://www.goodreads.com/book/show/30763882-fever-dream",
         "synopsis": "Fever Dream is a nightmare come to life, a ghost story for the real world, a love story and a cautionary tale. One of the freshest new voices to come out of the Spanish language and translated into English for the first time, Samanta Schweblin creates an aura of strange psychological menace and otherworldly reality in this absorbing, unsettling, taut novel.",
-        "image": "../thumbnails/Fever_Dream_book.jpg"
+        "image": "thumbnails/Fever_Dream_book.jpg"
     },
     {
         "id": 10,
@@ -117,7 +117,7 @@
         "ISBN": "9780316129084",
         "more_info": "https://www.goodreads.com/book/show/8855321-leviathan-wakes",
         "synopsis": "Two hundred years after migrating into space, mankind is in turmoil. When a reluctant ship’s captain and washed-up detective find themselves involved in the case of a missing girl, what they discover brings our solar system to the brink of civil war, and exposes the greatest conspiracy in human history.",
-        "image": "../thumbnails/Leviathan_Wakes_book.jpg"
+        "image": "thumbnails/Leviathan_Wakes_book.jpg"
     },
     {
         "id": 11,
@@ -129,7 +129,7 @@
         "ISBN": "9780316129060",
         "more_info": "https://www.goodreads.com/book/show/12591698-caliban-s-war?ref=nav_sb_ss_1_9",
         "synopsis": "For someone who didn't intend to wreck Sol system's fragile balance of power, Jim Holden did a pretty good job of it. While Earth and Mars have stopped shooting each other, the core alliance is shattered. The outer planets and the Belt are uncertain in their new - possibly temporary - autonomy. Then, on one of Jupiter's moons, a single super-soldier attacks, slaughtering soldiers of Earth and Mars indiscriminately and reigniting the war. The race is on to discover whether this is the vanguard of an alien army, or if the danger lies closer to home.",
-        "image": "../thumbnails/Calibans_War_book.jpg"
+        "image": "thumbnails/Calibans_War_book.jpg"
     },
     {
         "id": 12,
@@ -141,7 +141,7 @@
         "ISBN": "9780316129077",
         "more_info": "https://www.goodreads.com/book/show/16131032-abaddon-s-gate?ref=nav_sb_ss_1_7",
         "synopsis": "For generations, the Sol system – Mars, the Moon, the Asteroid Belt – was humanity's great frontier. Until now. The alien artifact working through its program under the clouds of Venus has appeared beyond Uranus's orbit, where it has built a massive gate that leads to a starless space beyond. As the emissaries of the human race try to find whether the gate is an opportunity or a threat, the greatest danger is the one they brought with them.",
-        "image": "../thumbnails/Abaddons_Gate_book.jpeg"
+        "image": "thumbnails/Abaddons_Gate_book.jpeg"
     },
     {
         "id": 13,
@@ -153,7 +153,7 @@
         "ISBN": "9780316217620 ",
         "more_info": "https://www.goodreads.com/book/show/18656030-cibola-burn?ref=nav_sb_ss_1_11",
         "synopsis": "The gates have opened the way to thousands of habitable planets, and the land rush has begun. Settlers stream out from humanity's home planets in a vast, poorly controlled flood, landing on a new world. The whispers of a dead man remind Holden that the great galactic civilization that once stood on this land is gone. And that something killed it.",
-        "image": "../thumbnails/Cibola_Burn_book.jpg"
+        "image": "thumbnails/Cibola_Burn_book.jpg"
     },
     {
         "id": 14,
@@ -165,7 +165,7 @@
         "ISBN": "9780356504254",
         "more_info": "https://www.goodreads.com/book/show/22886612-nemesis-games?ref=nav_sb_ss_1_7",
         "synopsis": "Ships are disappearing without a trace. Private armies are being secretly formed. The sole remaining protomolecule sample is stolen. Terrorist attacks previously considered impossible bring the inner planets to their knees. The sins of the past are returning to exact a terrible price.And as a new human order is struggling to be born in blood and fire, James Holden and the crew of the Rocinante must struggle to survive and get back to the only home they have left.",
-        "image": "../thumbnails/Nemesis_Games_book.jpg"
+        "image": "thumbnails/Nemesis_Games_book.jpg"
     },
     {
         "id": 15,
@@ -177,6 +177,6 @@
         "ISBN": "9780316334747",
         "more_info": "https://www.goodreads.com/book/show/25877663-babylon-s-ashes?ref=nav_sb_ss_2_7",
         "synopsis": "Two hundred years after migrating into space, mankind is in turmoil. When a reluctant ship’s captain and washed-up detective find themselves involved in the case of a missing girl, what they discover brings our solar system to the brink of civil war, and exposes the greatest conspiracy in human history.",
-        "image": "../thumbnails/Babylons_Ashes_book.jpg"
+        "image": "thumbnails/Babylons_Ashes_book.jpg"
     }
 ]
