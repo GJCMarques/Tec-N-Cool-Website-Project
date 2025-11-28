@@ -1,7 +1,5 @@
 /* ============================================
    IMPROVED STYLES - Tec'N'Cool
-   Categories with better animations
-   Stakeholders in 2x2 grid layout
    ============================================ */
 
 /* ============================================
@@ -149,14 +147,17 @@ body {
 .nav-content {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 100px;
+    gap: 12px;
 }
 
 .logo-section {
     display: flex;
     align-items: center;
     gap: var(--spacing-md);
+    flex: 0 1 auto;
+    min-width: 0;
 }
 
 .logo-link {
@@ -175,13 +176,17 @@ body {
 .logo-iscap {
     height: 60px;
     width: auto;
+    max-width: 100%;
     transition: all var(--transition-base);
+    object-fit: contain;
 }
 
 .logo-main {
     height: 50px;
     width: auto;
+    max-width: 100%;
     transition: all var(--transition-base);
+    object-fit: contain;
 }
 
 .nav-links {
@@ -1339,8 +1344,14 @@ body {
 }
 
 @media (max-width: 768px) {
+    .nav-container {
+        padding: 0 12px;
+    }
+    
     .nav-content {
         height: 80px;
+        flex-wrap: nowrap;
+        gap: 8px;
     }
 
     .nav-links {
@@ -1363,19 +1374,35 @@ body {
 
     .mobile-menu-btn {
         display: block;
+        flex-shrink: 0;
     }
 
     .logo-section {
-        gap: var(--spacing-sm);
+        gap: 10px;
+        flex: 1 1 auto;
+        min-width: 0;
+        max-width: calc(100% - 140px);
+    }
+
+    .logo-link {
+        flex-shrink: 1;
+        min-width: 0;
     }
 
     .logo-cei,
     .logo-iscap {
-        height: 45px;
+        height: 42px;
+        max-height: 42px;
     }
 
     .logo-main {
-        height: 35px;
+        height: 38px;
+        max-height: 38px;
+    }
+    
+    .nav-controls {
+        flex-shrink: 0;
+        gap: 8px;
     }
 
     .hero {
@@ -1438,21 +1465,68 @@ body {
     .scroll-to-top {
         bottom: 20px;
         right: 20px;
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .scroll-progress-ring {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
     }
 
     .scroll-arrow-up {
-        font-size: 22px;
+        font-size: 26px;
+    }
+}
+
+/* Media query adicional para telas entre 480px e 600px */
+@media (max-width: 600px) {
+    .nav-container {
+        padding: 0 10px;
+    }
+    
+    .logo-section {
+        gap: 8px;
+        max-width: calc(100% - 130px);
+    }
+    
+    .logo-cei,
+    .logo-iscap {
+        height: 38px;
+        max-height: 38px;
+    }
+    
+    .logo-main {
+        height: 34px;
+        max-height: 34px;
     }
 }
 
 @media (max-width: 480px) {
+    .nav-container {
+        padding: 0 8px;
+    }
+    
+    .nav-content {
+        gap: 6px;
+    }
+    
+    .logo-section {
+        gap: 6px;
+        max-width: calc(100% - 120px);
+    }
+    
+    .logo-cei,
+    .logo-iscap {
+        height: 34px;
+        max-height: 34px;
+    }
+    
+    .logo-main {
+        height: 30px;
+        max-height: 30px;
+    }
+    
     .language-dropdown {
         position: fixed;
         bottom: var(--spacing-md);
@@ -1467,6 +1541,18 @@ body {
 
     .scroll-to-top {
         bottom: 90px;
+        right: 16px;
+        width: 60px;
+        height: 60px;
+    }
+    
+    .scroll-progress-ring {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .scroll-arrow-up {
+        font-size: 24px;
     }
     
     .card-icon-wrapper {

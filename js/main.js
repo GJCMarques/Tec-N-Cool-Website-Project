@@ -358,8 +358,8 @@ function updateScrollToTopButton() {
         scrollBtn.classList.remove('visible');
     }
     
-    // Update progress ring
-    const circumference = 163.36; // 2 * π * 26
+    // Update progress ring - circumference = 2 * π * radius (26)
+    const circumference = 2 * Math.PI * 26;
     const offset = circumference - (scrollProgress / 100) * circumference;
     progressCircle.style.strokeDashoffset = offset;
 }
