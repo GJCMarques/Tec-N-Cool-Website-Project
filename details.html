@@ -6,6 +6,9 @@
     <meta name="description" content="Tec'N'Cool - Item Details">
     <title>Details | Tec'N'Cool</title>
     <link rel="icon" type="image/x-icon" href="imgs/tnc.ico">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/details.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -79,11 +82,11 @@
 
             <!-- Error State -->
             <div id="errorState" class="error-state hidden">
-                <div class="error-icon">😞</div>
+                <div class="error-icon"><i class="fa-regular fa-face-frown"></i></div>
                 <h2>Oops! Content not found</h2>
                 <p>The item you're looking for seems to have vanished into the digital void.</p>
                 <a href="catalog.html" class="btn-primary">
-                    <span>🔍</span>
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
                     <span>Browse Catalog</span>
                 </a>
             </div>
@@ -105,15 +108,17 @@
                             <h3>Share</h3>
                             <div class="share-buttons">
                                 <button class="share-btn" onclick="shareItem('facebook')">
-                                    <span class="share-icon">📘</span>
+                                    <span class="share-icon"><i class="fa-brands fa-facebook-f"></i></span>
                                     <span>Facebook</span>
                                 </button>
-                                <button class="share-btn" onclick="shareItem('twitter')">
-                                    <span class="share-icon">🐦</span>
-                                    <span>Twitter</span>
+                                
+                                <button class="share-btn" onclick="shareItem('linkedin')">
+                                    <span class="share-icon"><i class="fa-brands fa-linkedin-in"></i></span>
+                                    <span>LinkedIn</span>
                                 </button>
+
                                 <button class="share-btn" onclick="copyLink()">
-                                    <span class="share-icon">🔗</span>
+                                    <span class="share-icon"><i class="fa-solid fa-link"></i></span>
                                     <span>Copy Link</span>
                                 </button>
                             </div>
@@ -144,11 +149,11 @@
                         <!-- Action Buttons -->
                         <div class="action-buttons">
                             <a id="item-trailer" href="#" target="_blank" rel="noopener noreferrer" class="btn-action btn-trailer hidden">
-                                <span class="btn-icon">🎬</span>
+                                <span class="btn-icon"><i class="fa-solid fa-play"></i></span>
                                 <span>Watch Trailer</span>
                             </a>
                             <a id="item-more-info" href="#" target="_blank" rel="noopener noreferrer" class="btn-action btn-info hidden">
-                                <span class="btn-icon">📚</span>
+                                <span class="btn-icon"><i class="fa-solid fa-circle-info"></i></span>
                                 <span>More Info</span>
                             </a>
                         </div>
@@ -156,7 +161,7 @@
                         <!-- Synopsis -->
                         <div class="synopsis-section">
                             <h2 class="section-title">
-                                <span class="title-icon">📖</span>
+                                <span class="title-icon"><i class="fa-solid fa-align-left"></i></span>
                                 <span>Synopsis</span>
                             </h2>
                             <p id="item-synopsis" class="synopsis-text"></p>
@@ -165,7 +170,7 @@
                         <!-- Production Details (Films/Shows) -->
                         <div id="filmShowDetails" class="details-section hidden">
                             <h2 class="section-title">
-                                <span class="title-icon">🎭</span>
+                                <span class="title-icon"><i class="fa-solid fa-clapperboard"></i></span>
                                 <span>Production Details</span>
                             </h2>
                             <div class="details-grid">
@@ -203,7 +208,7 @@
                         <!-- Book Details -->
                         <div id="bookDetails" class="details-section hidden">
                             <h2 class="section-title">
-                                <span class="title-icon">✍️</span>
+                                <span class="title-icon"><i class="fa-solid fa-book"></i></span>
                                 <span>Book Details</span>
                             </h2>
                             <div class="details-grid">
@@ -236,7 +241,7 @@
                 <div class="related-section fade-in-element" id="relatedSection" style="animation-delay: 0.3s">
                     <div class="section-header">
                         <h2 class="section-title-large">
-                            <span class="title-icon-large">🎯</span>
+                            <span class="title-icon-large"><i class="fa-solid fa-bullseye"></i></span>
                             <span>You Might Also Like</span>
                         </h2>
                     </div>
@@ -251,9 +256,50 @@
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
         <div class="container">
-            <div class="footer-content">
-                <p class="footer-text">© 2025 Tec'N'Cool Project</p>
-                <p class="footer-text">CEI & ISCAP | Politécnico do Porto</p>
+            <div class="footer-layout">
+                
+                <div class="footer-logo-col">
+                    <a href="https://www.iscap.ipp.pt/cei/" target="_blank" aria-label="CEI Website">
+                        <img src="imgs/Logo_CEI.jpg" alt="CEI Logo" class="footer-cei-logo">
+                    </a>
+                </div>
+
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Address</h4>
+                    <div class="footer-content-block">
+                        <p>Center for Intercultural Studies</p>
+                        <p>Office 333 and 335</p>
+                        <p>Rua Jaime Lopes Amorim, s/n</p>
+                        <p>4465-004 S. Mamede de Infesta</p>
+                        <p>Portugal</p>
+                    </div>
+                </div>
+
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Contacts</h4>
+                    <div class="footer-content-block contact-links">
+                        <p>Tel.: <a href="tel:+351229050037" class="footer-link">+351 229 050 037</a></p>
+                        <p><a href="mailto:cei@iscap.ipp.pt" class="footer-link">cei@iscap.ipp.pt</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Social</h4>
+                    <div class="footer-content-block">
+                        <div class="social-icons-row">
+                            <a href="https://www.facebook.com/centrodeestudosinterculturais" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="linkedin.com/company/centro-de-estudos-interculturais" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/channel/UCIteSfviWDuxBSIuiMAU19Q" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/cei_estudosinterculturais" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="https://www.iscap.pt/cei/en/videogallery/" class="videogallery-link">Videogallery</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tec'N'Cool Project (CEI) - ISCAP. All rights reserved.</p>
             </div>
         </div>
     </footer>

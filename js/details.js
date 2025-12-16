@@ -266,9 +266,9 @@ class DetailsPageManager {
         if (!badge) return;
 
         const icons = {
-            'economy': '💼',
-            'environment': '🌍',
-            'law': '⚖️'
+            'economy': '<i class="fa-solid fa-briefcase"></i>',
+            'environment': '<i class="fa-solid fa-earth-americas"></i>',
+            'law': '<i class="fa-solid fa-scale-balanced"></i>'
         };
 
         const names = {
@@ -280,7 +280,7 @@ class DetailsPageManager {
         const icon = badge.querySelector('.badge-icon');
         const text = badge.querySelector('.badge-text');
 
-        if (icon) icon.textContent = icons[item.category] || '📚';
+        if (icon) icon.innerHTML = icons[item.category] || '<i class="fa-solid fa-book"></i>';
         if (text) text.textContent = names[item.category] || 'Culture';
     }
 
@@ -337,11 +337,11 @@ class DetailsPageManager {
         // Type
         if (metaType) {
             const typeIcons = {
-                'films': '🎬 Film',
-                'shows': '📺 Series',
-                'books': '📚 Book'
+                'films': '<i class="fa-solid fa-film"></i> Film',
+                'shows': '<i class="fa-solid fa-tv"></i> Series',
+                'books': '<i class="fa-solid fa-book"></i> Book'
             };
-            metaType.textContent = typeIcons[item.type] || item.type;
+            metaType.innerHTML = typeIcons[item.type] || item.type;
         }
 
         // Genre

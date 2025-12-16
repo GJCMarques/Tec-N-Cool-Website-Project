@@ -1598,3 +1598,231 @@ body {
         color: black;
     }
 }
+
+/* =================================================================
+   ADDITIONS FOR REDESIGN (Adicionar ao final do ficheiro original)
+   ================================================================= */
+
+/* 1. INTRO SECTION (Texto + Logo) */
+.intro-section {
+    padding: 3rem 1.5rem;
+    background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+    text-align: center;
+    margin-top: 100px; /* Ajuste para o Header fixo */
+}
+
+.intro-content { max-width: 900px; margin: 0 auto 2rem; }
+.intro-title { font-size: 2.5rem; font-weight: 900; margin-bottom: 1.5rem; color: #0f172a; }
+.intro-text { font-size: 1.125rem; line-height: 1.8; color: #475569; }
+
+.intro-logo-wrapper {
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+}
+.big-brand-logo { width: 100%; height: auto; max-height: 200px; object-fit: contain; }
+
+/* 2. COMPACT CARDS & ICONS (Substitui estilos antigos dos cards) */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem; /* Gap reduzido */
+}
+
+.category-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
+    display: flex; flex-direction: column;
+}
+
+.category-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+.card-gradient { height: 4px; width: 100%; }
+
+.card-header { padding: 1.5rem 1rem 0.5rem; display: flex; justify-content: center; }
+.card-icon-wrapper { width: 80px; height: 80px; position: relative; display: flex; align-items: center; justify-content: center; }
+.category-icon-img { width: 100%; height: 100%; object-fit: cover; border-radius: 12px; }
+
+.card-content { padding: 0.5rem 1.5rem 1.5rem; display: flex; flex-direction: column; flex-grow: 1; }
+.card-title { font-size: 1.25rem; font-weight: 700; margin: 0.5rem 0; text-align: center; color: #0f172a; }
+.card-description { font-size: 0.9rem; color: #64748b; margin-bottom: 1.25rem; text-align: center; line-height: 1.5; }
+
+/* Links com Font Awesome Icons */
+.card-links { margin-top: auto; display: flex; flex-direction: column; gap: 0.5rem; }
+
+.card-link {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 16px;
+    background: #f8fafc; border-radius: 8px;
+    text-decoration: none; color: #334155;
+    font-weight: 600; font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.card-link:hover { background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.05); color: #2563eb; }
+
+/* Estilo específico para icones FontAwesome nos links */
+.card-link-icon { font-size: 1.1rem; color: #64748b; transition: color 0.2s; }
+.card-link:hover .card-link-icon { color: #2563eb; }
+.link-arrow { margin-left: auto; font-size: 1.1rem; }
+
+/* 3. ABOUT ICONS (Font Awesome) */
+.value-icon-fa { font-size: 2.5rem; color: #3b82f6; margin-bottom: 1rem; }
+.stakeholder-icon-fa { font-size: 2rem; color: #3b82f6; margin-right: 0.5rem; }
+
+/* 4. FOOTER (Dark com Colunas) */
+.footer {
+    background: #0f172a; color: white;
+    padding: 3rem 1.5rem; margin-top: 4rem;
+}
+.footer-links { display: flex; justify-content: center; gap: 4rem; flex-wrap: wrap; text-align: left; }
+.footer-col h4 { color: #3b82f6; margin-bottom: 1rem; font-size: 1.1rem; }
+.footer-col p, .footer-col a { color: #cbd5e1; font-size: 0.9rem; margin-bottom: 0.5rem; display: block; text-decoration: none; }
+.footer-external-link:hover { color: white; text-decoration: underline; }
+
+@media (max-width: 768px) {
+    .footer-links { flex-direction: column; text-align: center; gap: 2rem; }
+}
+
+/* ============================================
+   NEW FOOTER - CEI LAYOUT (ENGLISH)
+   ============================================ */
+
+.footer {
+    background-color: #0f172a; /* Dark Slate background */
+    color: #e2e8f0;
+    padding: 4rem 1.5rem 2rem;
+    margin-top: 5rem;
+    border-top: 4px solid #3b82f6; /* Top accent border */
+}
+
+/* Layout Grid: Logo | Address | Contacts | Social */
+.footer-layout {
+    display: grid;
+    grid-template-columns: 180px 1.2fr 1fr 0.8fr; /* Logo size fixed, others proportional */
+    gap: 3rem;
+    max-width: 1400px;
+    margin: 0 auto 3rem;
+    align-items: start;
+}
+
+/* Logo Column */
+.footer-cei-logo {
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    border-radius: 50%; /* Faz o logo redondo como na imagem do CEI original */
+    background: white;
+    padding: 2px;
+}
+
+/* Headings (Address, Contacts, Social) */
+.footer-heading {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+/* The Line under the headings (Like the red line in image, but Blue to match theme) */
+.footer-heading::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width line like the image */
+    height: 1px;
+    background-color: #3b82f6; /* Blue Accent */
+}
+
+/* Text Content */
+.footer-content-block p {
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #94a3b8;
+}
+
+/* Links (Phone, Email) */
+.footer-link {
+    color: #3b82f6; /* Blue text like the green in image */
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-link:hover {
+    color: #60a5fa;
+    text-decoration: underline;
+}
+
+/* Social Icons Fixed */
+.social-icons-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 1.5rem;
+}
+
+.social-icon {
+    font-size: 1.2rem;
+    color: #ffffff; /* White icons */
+    transition: transform 0.2s, color 0.2s;
+}
+
+.social-icon:hover {
+    color: #3b82f6; /* Blue on hover */
+    transform: translateY(-3px);
+}
+
+/* Videogallery Link */
+.videogallery-link {
+    display: inline-block;
+    color: #3b82f6;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
+
+.videogallery-link:hover {
+    text-decoration: underline;
+}
+
+/* Copyright Area */
+.footer-bottom {
+    border-top: 1px solid #1e293b;
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #64748b;
+}
+
+/* RESPONSIVE (Mobile) */
+@media (max-width: 1024px) {
+    .footer-layout {
+        grid-template-columns: 1fr 1fr; /* 2 columns tablet */
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-layout {
+        grid-template-columns: 1fr; /* 1 column mobile */
+        text-align: center;
+    }
+    
+    .footer-logo-col {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .footer-heading::after {
+        /* Keep line centered or full width on mobile */
+        width: 100%; 
+    }
+}

@@ -534,13 +534,13 @@ class CatalogManager {
             }
             
             const typeIcons = {
-                'films': '🎬',
-                'shows': '📺',
-                'books': '📚'
+                'films': '<i class="fa-solid fa-film"></i>',
+                'shows': '<i class="fa-solid fa-tv"></i>',
+                'books': '<i class="fa-solid fa-book"></i>'
             };
             const icon = typeIcons[item.type] || '';
             const typeLabel = item.type.charAt(0).toUpperCase() + item.type.slice(1);
-            meta.textContent = year ? `${icon} ${typeLabel} • ${year}` : `${icon} ${typeLabel}`;
+            meta.innerHTML = year ? `${icon} ${typeLabel} • ${year}` : `${icon} ${typeLabel}`;
 
             info.appendChild(title);
             info.appendChild(meta);

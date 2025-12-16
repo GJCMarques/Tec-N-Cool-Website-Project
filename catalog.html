@@ -6,6 +6,9 @@
     <meta name="description" content="Tec'N'Cool - Catalog">
     <title>Catalog | Tec'N'Cool</title>
     <link rel="icon" type="image/x-icon" href="imgs/tnc.ico">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/catalog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,9 +69,9 @@
                         <label class="selector-label">Category:</label>
                         <select id="categorySelect" class="category-select">
                             <option value="all">All Categories</option>
-                            <option value="economy">💼 Economy & Culture</option>
-                            <option value="environment">🌍 Environment & Culture</option>
-                            <option value="law">⚖️ Law & Culture</option>
+                            <option value="economy">Economy & Culture</option>
+                            <option value="environment">Environment & Culture</option>
+                            <option value="law">Law & Culture</option>
                         </select>
                     </div>
 
@@ -76,9 +79,9 @@
                         <label class="selector-label">Type:</label>
                         <select id="typeSelect" class="type-select">
                             <option value="all">All Types</option>
-                            <option value="films">🎬 Films</option>
-                            <option value="shows">📺 TV Shows</option>
-                            <option value="books">📚 Books</option>
+                            <option value="films">Films</option>
+                            <option value="shows">TV Shows</option>
+                            <option value="books">Books</option>
                         </select>
                     </div>
                 </div>
@@ -88,7 +91,7 @@
             <div class="controls-section fade-in-element" style="animation-delay: 0.2s">
                 <!-- Search Bar -->
                 <div class="search-box">
-                    <span class="search-icon">🔍</span>
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
                     <input 
                         type="text" 
                         id="searchInput" 
@@ -175,9 +178,50 @@
     <!-- Footer -->
     <footer class="footer" role="contentinfo">
         <div class="container">
-            <div class="footer-content">
-                <p class="footer-text">© 2025 Tec'N'Cool Project</p>
-                <p class="footer-text">CEI & ISCAP | Politécnico do Porto</p>
+            <div class="footer-layout">
+                
+                <div class="footer-logo-col">
+                    <a href="https://www.iscap.ipp.pt/cei/" target="_blank" aria-label="CEI Website">
+                        <img src="imgs/Logo_CEI.jpg" alt="CEI Logo" class="footer-cei-logo">
+                    </a>
+                </div>
+
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Address</h4>
+                    <div class="footer-content-block">
+                        <p>Center for Intercultural Studies</p>
+                        <p>Office 333 and 335</p>
+                        <p>Rua Jaime Lopes Amorim, s/n</p>
+                        <p>4465-004 S. Mamede de Infesta</p>
+                        <p>Portugal</p>
+                    </div>
+                </div>
+
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Contacts</h4>
+                    <div class="footer-content-block contact-links">
+                        <p>Tel.: <a href="tel:+351229050037" class="footer-link">+351 229 050 037</a></p>
+                        <p><a href="mailto:cei@iscap.ipp.pt" class="footer-link">cei@iscap.ipp.pt</a></p>
+                    </div>
+                </div>
+
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Social</h4>
+                    <div class="footer-content-block">
+                        <div class="social-icons-row">
+                            <a href="https://www.facebook.com/centrodeestudosinterculturais" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="linkedin.com/company/centro-de-estudos-interculturais" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://www.youtube.com/channel/UCIteSfviWDuxBSIuiMAU19Q" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://www.instagram.com/cei_estudosinterculturais" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="https://www.iscap.pt/cei/en/videogallery/" class="videogallery-link">Videogallery</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tec'N'Cool Project (CEI) - ISCAP. All rights reserved.</p>
             </div>
         </div>
     </footer>
