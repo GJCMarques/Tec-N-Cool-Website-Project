@@ -99,16 +99,13 @@ class CatalogManager {
         if (urlCategory || urlType) {
             if (urlCategory) {
                 localStorage.setItem(this.storageKeys.category, urlCategory);
-                console.log('Saved category from URL:', urlCategory);
             }
             if (urlType) {
                 localStorage.setItem(this.storageKeys.type, urlType);
-                console.log('Saved type from URL:', urlType);
             }
             
             const cleanUrl = window.location.pathname;
             window.history.replaceState({}, document.title, cleanUrl);
-            console.log('URL cleaned - params removed');
         }
     }
 
@@ -127,8 +124,6 @@ class CatalogManager {
         if (typeSelect) {
             typeSelect.value = savedType;
         }
-        
-        console.log('Loaded filters from localStorage:', { category: savedCategory, type: savedType });
     }
 
     // Save filters to localStorage
@@ -138,8 +133,6 @@ class CatalogManager {
         
         localStorage.setItem(this.storageKeys.category, category);
         localStorage.setItem(this.storageKeys.type, type);
-        
-        console.log('Saved filters to localStorage:', { category, type });
     }
 
     // Setup event listeners
@@ -259,8 +252,6 @@ class CatalogManager {
             
             await Promise.all(loadPromises);
             
-            console.log('Total items loaded:', this.allItems.length);
-            
             this.populateFilters();
             this.applyFilters();
             
@@ -283,7 +274,6 @@ class CatalogManager {
             const data = await response.json();
             
             if (Array.isArray(data) && data.length > 0) {
-                console.log(`Loaded ${fileName}: ${data.length} items`);
                 data.forEach(item => {
                     item.category = category;
                     item.type = type;

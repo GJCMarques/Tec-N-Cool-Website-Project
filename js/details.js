@@ -19,18 +19,14 @@ class DetailsPageManager {
         let category = urlParams.get('category');
         let id = urlParams.get('id');
 
-        console.log('Details Page - URL Params:', { type, category, id });
-
         // Se não há parâmetros na URL, tenta carregar do localStorage
         if (!type || !category || !id) {
-            console.log('No URL params, trying localStorage...');
             const savedItem = this.getSavedItem();
             
             if (savedItem) {
                 type = savedItem.type;
                 category = savedItem.category;
                 id = savedItem.id;
-                console.log('Loaded from localStorage:', savedItem);
             } else {
                 console.error('No URL parameters and no saved item');
                 this.showError();
@@ -56,7 +52,6 @@ class DetailsPageManager {
         
         try {
             localStorage.setItem('currentDetailsItem', JSON.stringify(itemData));
-            console.log('Saved to localStorage:', itemData);
         } catch (error) {
             console.error('Error saving to localStorage:', error);
         }
@@ -134,7 +129,6 @@ class DetailsPageManager {
     async loadItemData(type, category, id) {
         try {
             const jsonPath = this.getJsonPath(category, type);
-            console.log('Loading from:', jsonPath);
             
             const response = await fetch(jsonPath);
             if (!response.ok) throw new Error('Failed to load data');
@@ -154,8 +148,6 @@ class DetailsPageManager {
             item.type = type;
             item.category = category;
 
-            console.log('Item loaded:', item);
-
             this.currentItem = item;
             this.displayItem(item);
             this.loadRelatedItems(type, category, id);
@@ -174,13 +166,11 @@ class DetailsPageManager {
         if (window.history && window.history.replaceState) {
             const cleanUrl = window.location.pathname;
             window.history.replaceState({}, document.title, cleanUrl);
-            console.log('URL cleaned:', cleanUrl);
         }
     }
 
     // Display item details
     displayItem(item) {
-        console.log('Displaying item:', item);
         
         // Hide loading, show content
         document.getElementById('loadingState').style.display = 'none';
@@ -231,7 +221,6 @@ class DetailsPageManager {
             this.setBookDetails(item);
         }
         
-        console.log('Item display completed');
     }
 
     // Update breadcrumbs
@@ -388,14 +377,12 @@ class DetailsPageManager {
         }
     }
 
-    // Set film/show details - MAPEAMENTO CORRETO DOS CAMPOS JSON!
+    // Set film/show details
     setFilmShowDetails(item) {
         const container = document.getElementById('filmShowDetails');
         if (!container) return;
 
         container.classList.remove('hidden');
-
-        console.log('Setting film/show details:', item);
 
         // ==============================================
         // DIRECTOR/CREATOR
@@ -493,8 +480,6 @@ class DetailsPageManager {
         if (!container) return;
 
         container.classList.remove('hidden');
-
-        console.log('Setting book details:', item);
 
         // ==============================================
         // AUTHOR (campo "author" no JSON)

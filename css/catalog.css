@@ -315,10 +315,6 @@
     box-shadow: 0 4px 15px var(--shadow);
 }
 
-.catalog-item.visible {
-    /* Hover effects only active when visible */
-}
-
 .catalog-item.visible:hover {
     transform: translateY(-8px) !important;
     box-shadow: 0 20px 40px var(--shadow);
@@ -633,26 +629,6 @@
     .catalog-item-meta {
         font-size: 0.65rem;
     }
-}
-
-/* ============================================
-   DARK MODE
-   ============================================ */
-[data-theme="dark"] .catalog-item {
-    background: rgba(255, 255, 255, 0.03);
-}
-
-[data-theme="dark"] .catalog-item:hover {
-    background: rgba(255, 255, 255, 0.05);
-}
-
-[data-theme="dark"] .selector-row,
-[data-theme="dark"] .search-input,
-[data-theme="dark"] .filter-select,
-[data-theme="dark"] .results-text,
-[data-theme="dark"] .no-results,
-[data-theme="dark"] .pagination {
-    background: rgba(255, 255, 255, 0.03);
 }
 
 /* ============================================
