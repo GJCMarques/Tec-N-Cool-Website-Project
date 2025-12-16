@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tec'N'Cool - Bridge between academic knowledge and contemporary culture">
+    <title>Tec'N'Cool - Home</title>
+    <link rel="icon" type="image/x-icon" href="imgs/tnc.ico">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        /* 1. MELHORIA VISUAL DO "SOBRE" (EDITORIAL STYLE) */
+        .editorial-intro {
+            /* AUMENTEI AQUI O TOPO PARA 180px PARA DESCOLAR DO HEADER */
+            padding: 180px 1.5rem 5rem; 
+            text-align: center;
+            background: #fff;
+        }
+
+        .editorial-title {
+            font-size: clamp(3rem, 5vw, 4.5rem); 
+            font-weight: 900;
+            line-height: 1.1;
+            margin-bottom: 2rem;
+            letter-spacing: -1px;
+            /* Gradiente subtil para ficar elegante */
+            background: linear-gradient(135deg, #0f172a 0%, #334155 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-transform: uppercase; /* Fica mais imponente como título curto */
+        }
+
+        .editorial-text {
+            font-size: 1.25rem;
+            line-height: 1.8;
+            color: #475569;
+            max-width: 800px;
+            margin: 0 auto;
+            font-weight: 400; 
+        }
+
+        .editorial-image-container {
+            margin-top: 4rem; /* Mais espaço entre texto e imagem */
+            position: relative;
+            padding: 0 1rem;
+            display: flex;
+            justify-content: center;
+        }
+        
+        /* Brilho decorativo atrás da imagem */
+        .editorial-image-container::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80%;
+            height: 80%;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+            z-index: -1;
+        }
+
+        /* Resto do CSS (Dark Section, etc) mantém igual... */
+        /* ... copia o resto do CSS da resposta anterior aqui se necessário ... */
+        .info-dark-section {
+            background-color: #0f172a;
+            color: #f8fafc;
+            padding: 5rem 1.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+        /* (Mantenha o resto do CSS da resposta anterior) */
+        .info-dark-section::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background-image: radial-gradient(#334155 1px, transparent 1px);
+            background-size: 30px 30px;
+            opacity: 0.1;
+            pointer-events: none;
+        }
+        .info-grid-modern {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1200px;
+            margin: 0 auto 5rem;
+            align-items: center;
+        }
+        .info-text-block h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(90deg, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .info-card-glass {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 2rem;
+            border-radius: 20px;
+            transition: transform 0.3s ease;
+        }
+        .info-card-glass:hover {
+            transform: translateY(-5px);
+            border-color: rgba(96, 165, 250, 0.5);
+        }
+        .stakeholders-modern-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .stakeholder-mini-card {
+            background: #1e293b;
+            padding: 1.5rem;
+            border-radius: 12px;
+            border-left: 4px solid #3b82f6;
+            transition: all 0.3s ease;
+        }
+        .stakeholder-mini-card:hover {
+            background: #283548;
+            transform: translateY(-5px);
+        }
+        .stk-icon { font-size: 1.5rem; color: #60a5fa; margin-bottom: 1rem; }
+        .stk-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 0.5rem; color: #fff; }
+        .stk-desc { font-size: 0.9rem; color: #94a3b8; line-height: 1.5; }
+
+        @media (max-width: 900px) {
+            .info-grid-modern { grid-template-columns: 1fr; gap: 2rem; }
+            .editorial-title { font-size: 2.5rem; }
+        }
+    </style>
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <div class="logo-section">
+                    <a href="index.html" class="logo-link"><img src="imgs/Logo_CEI.jpg" alt="CEI Logo" class="logo-cei"></a>
+                    <a href="index.html" class="logo-link"><img src="imgs/logo_w_lettering_curto2.png" alt="Tec'N'Cool Logo" class="logo-main"></a>
+                    <a href="index.html" class="logo-link"><img src="imgs/LogoISCAPPP2.png" alt="ISCAP P.Porto Logo" class="logo-iscap"></a>
+                </div>
+                <div class="nav-links" id="navLinks">
+                    <a href="catalog.html?type=all&category=economy" class="nav-link">Economy & Culture</a>
+                    <a href="catalog.html?type=all&category=environment" class="nav-link">Environment & Culture</a>
+                    <a href="catalog.html?type=all&category=law" class="nav-link">Law & Culture</a>
+                    <a href="#about" class="nav-link">About</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn"><span class="hamburger"></span></button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        
+        <section class="editorial-intro" id="about">
+            <div class="container" data-aos="fade-up">
+                
+                <h1 class="editorial-title">About Us</h1>
+                
+                <p class="editorial-text">
+                    Tec'N'Cool was born from the conviction that academic knowledge and contemporary culture should engage in an open dialogue. We bring together over 250 films, series, and books to bridge the gap between theory and reality.
+                </p>
+
+                <div class="editorial-image-container" data-aos="fade-up" data-aos-delay="100">
+                    <img src="imgs/logo_w_lettering_curto2.png" alt="Tec'N'Cool Brand" style="max-height: 120px; width: auto; display: block;">
+                </div>
+            </div>
+        </section>
+
+        <section class="categories" id="categories" style="background: #f8fafc; padding: 4rem 1.5rem;">
+            <div class="container">
+                <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Explore Our Collections</h2>
+                <div class="categories-grid">
+                    <article class="category-card economy-card" data-aos="fade-up">
+                        <div class="card-gradient" style="background: var(--gradient-blue);"></div>
+                        <div class="card-header"><img src="imgs/Economy_and_Culture.jpeg" class="category-icon-img" alt="Economy"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Economy & Culture</h3>
+                            <div class="card-links">
+                                <a href="catalog.html?type=films&category=economy" class="card-link"><span>Films</span> <span class="link-arrow">→</span></a>
+                                <a href="catalog.html?type=shows&category=economy" class="card-link"><span>TV Shows</span> <span class="link-arrow">→</span></a>
+                                <a href="catalog.html?type=books&category=economy" class="card-link"><span>Literature</span> <span class="link-arrow">→</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="category-card environment-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card-gradient" style="background: var(--gradient-green);"></div>
+                        <div class="card-header"><img src="imgs/Ambiente_e_Cultura.jpeg" class="category-icon-img" alt="Environment"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Environment & Culture</h3>
+                            <div class="card-links">
+                                <a href="catalog.html?type=films&category=environment" class="card-link"><span>Films</span> <span class="link-arrow">→</span></a>
+                                <a href="catalog.html?type=shows&category=environment" class="card-link"><span>TV Shows</span> <span class="link-arrow">→</span></a>
+                                <a href="catalog.html?type=books&category=environment" class="card-link"><span>Literature</span> <span class="link-arrow">→</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="category-card law-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="card-gradient" style="background: var(--gradient-purple);"></div>
+                        <div class="card-header"><img src="imgs/Law_And_Culture_img.jpg" class="category-icon-img" alt="Law"></div>
+                        <div class="card-content">
+                            <h3 class="card-title">Law & Culture</h3>
+                            <div class="card-links">
+                                <a href="catalog.html?type=films&category=law" class="card-link"><span>Films</span> <span class="link-arrow">→</span></a>
+                                <a href="catalog.html?type=shows&category=law" class="card-link"><span>TV Shows</span> <span class="link-arrow">→</span></a>
+                                <a href="catalog.html?type=books&category=law" class="card-link"><span>Literature</span> <span class="link-arrow">→</span></a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-dark-section">
+            <div class="container">
+                
+                <div class="info-grid-modern">
+                    <div class="info-text-block" data-aos="fade-right">
+                        <h3>The Rationale</h3>
+                        <p style="font-size: 1.1rem; line-height: 1.7; color: #cbd5e1; margin-bottom: 2rem;">
+                            Understanding complex subjects requires multiple perspectives. We believe cultural narratives uniquely capture social and economic complexities that textbooks alone cannot convey.
+                        </p>
+                        <div class="info-card-glass">
+                            <i class="fa-solid fa-bullseye" style="color: #a78bfa; font-size: 2rem; margin-bottom: 1rem;"></i>
+                            <h4 style="font-size: 1.2rem; margin-bottom: 1rem;">Main Objectives</h4>
+                            <ul style="list-style: none; padding: 0; color: #e2e8f0;">
+                                <li style="margin-bottom: 0.8rem;"><i class="fa-solid fa-check" style="color: #60a5fa; margin-right: 10px;"></i> Encourage autonomous discovery</li>
+                                <li style="margin-bottom: 0.8rem;"><i class="fa-solid fa-check" style="color: #60a5fa; margin-right: 10px;"></i> Bridge theory and practice</li>
+                                <li><i class="fa-solid fa-check" style="color: #60a5fa; margin-right: 10px;"></i> Stimulate interdisciplinarity</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="info-text-block" data-aos="fade-left" style="text-align: center;">
+                        <div style="background: radial-gradient(circle, rgba(96, 165, 250, 0.2) 0%, transparent 70%); padding: 3rem; border-radius: 50%;">
+                             <h2 style="font-size: 4rem; font-weight: 900; color: white; margin: 0;">250+</h2>
+                             <p style="color: #94a3b8; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 2px;">Curated Items</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-bottom: 3rem;" data-aos="fade-up">
+                    <h3 style="font-size: 2rem; color: white;">Advantages for the Community</h3>
+                </div>
+
+                <div class="stakeholders-modern-grid">
+                    <div class="stakeholder-mini-card" data-aos="fade-up" data-aos-delay="0">
+                        <i class="fa-solid fa-graduation-cap stk-icon"></i>
+                        <h4 class="stk-title">Students</h4>
+                        <p class="stk-desc">Broaden education in a dynamic way, connecting concepts with pop culture.</p>
+                    </div>
+
+                    <div class="stakeholder-mini-card" data-aos="fade-up" data-aos-delay="100">
+                        <i class="fa-solid fa-chalkboard-user stk-icon"></i>
+                        <h4 class="stk-title">Teachers</h4>
+                        <p class="stk-desc">Innovative didactic tools to diversify teaching methodologies.</p>
+                    </div>
+
+                    <div class="stakeholder-mini-card" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fa-solid fa-microscope stk-icon"></i>
+                        <h4 class="stk-title">Researchers</h4>
+                        <p class="stk-desc">Valuable collection for analyzing representation in cultural narratives.</p>
+                    </div>
+
+                    <div class="stakeholder-mini-card" data-aos="fade-up" data-aos-delay="300">
+                        <i class="fa-solid fa-building stk-icon"></i>
+                        <h4 class="stk-title">Companies</h4>
+                        <p class="stk-desc">Inspiration for staff training and social responsibility programs.</p>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 5rem; opacity: 0.7;" data-aos="fade-up">
+                    <p style="font-style: italic; font-size: 1.1rem;">"A living space for the intersection of knowledge and culture."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-layout">
+                <div class="footer-logo-col">
+                    <a href="https://www.iscap.ipp.pt/cei/" target="_blank"><img src="imgs/Logo_CEI.jpg" alt="CEI Logo" class="footer-cei-logo"></a>
+                </div>
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Address</h4>
+                    <div class="footer-content-block">
+                        <p>Center for Intercultural Studies</p>
+                        <p>Office 333 and 335</p>
+                        <p>Rua Jaime Lopes Amorim, s/n</p>
+                        <p>4465-004 S. Mamede de Infesta</p>
+                        <p>Portugal</p>
+                    </div>
+                </div>
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Contacts</h4>
+                    <div class="footer-content-block contact-links">
+                        <p>Tel.: <a href="tel:+351229050037" class="footer-link">+351 229 050 037</a></p>
+                        <p><a href="mailto:cei@iscap.ipp.pt" class="footer-link">cei@iscap.ipp.pt</a></p>
+                    </div>
+                </div>
+                <div class="footer-info-col">
+                    <h4 class="footer-heading">Social</h4>
+                    <div class="footer-content-block">
+                        <div class="social-icons-row">
+                            <a href="#" class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="https://www.iscap.pt/cei/en/videogallery/" class="videogallery-link">Videogallery</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tec'N'Cool Project (CEI) - ISCAP. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" class="scroll-to-top"><span class="scroll-arrow-up">↑</span></button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
