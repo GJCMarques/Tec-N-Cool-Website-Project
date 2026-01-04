@@ -36,7 +36,6 @@ function handleScroll() {
     
     lastScroll = currentScroll;
     
-    // Update scroll-to-top button
     updateScrollToTopButton();
 }
 
@@ -66,14 +65,12 @@ function updateScrollToTopButton() {
     const scrolled = window.pageYOffset;
     const scrollProgress = (scrolled / windowHeight) * 100;
     
-    // Show button after scrolling 200px
     if (scrolled > 200) {
         scrollBtn.classList.add('visible');
     } else {
         scrollBtn.classList.remove('visible');
     }
     
-    // Update progress ring - circumference = 2 * π * radius (26)
     const circumference = 2 * Math.PI * 26;
     const offset = circumference - (scrollProgress / 100) * circumference;
     progressCircle.style.strokeDashoffset = offset;
@@ -192,7 +189,6 @@ function initSmoothScroll() {
                 e.preventDefault();
                 const target = document.querySelector(href);
                 if (target) {
-                    // Calculate offset with EXTRA 70px padding
                     const isMobile = window.innerWidth <= 768;
                     const headerHeight = isMobile ? 80 : 100;
                     const extraPadding = 70;
@@ -203,7 +199,6 @@ function initSmoothScroll() {
                         behavior: 'smooth'
                     });
                     
-                    // Close mobile menu if open
                     const navLinks = document.getElementById('navLinks');
                     const menuBtn = document.getElementById('mobileMenuBtn');
                     if (navLinks && menuBtn) {
@@ -221,7 +216,6 @@ function initSmoothScroll() {
 // KEYBOARD NAVIGATION
 // ============================================
 function initKeyboardNav() {
-    // ESC key closes mobile menu
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             const navLinks = document.getElementById('navLinks');
@@ -262,8 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initEventListeners();
     initCardHoverEffects();
     initScrollToTopButton();
-    
-    // Create particles animation
     setTimeout(createParticles, 500);
     
 });

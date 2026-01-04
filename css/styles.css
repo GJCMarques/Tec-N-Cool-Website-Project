@@ -1213,21 +1213,21 @@ body {
 }
 
 /* =================================================================
-   ADDITIONS FOR REDESIGN (Adicionar ao final do ficheiro original)
+   ADDITIONS FOR REDESIGN
    ================================================================= */
 
 /* 1. INTRO SECTION (Texto + Logo) */
 .intro-section {
-    padding: 2rem 0.5rem; /* Reduzido o padding vertical drasticamente */
-    margin-top: 100px; /* Mantém espaço apenas para o header fixo */
+    padding: 2rem 0.5rem;
+    margin-top: 100px;
 }
 
 .intro-title {
-    display: none; /* Tira o título About */
+    display: none;
 }
 
 .intro-content {
-    max-width: 1000px; /* Mesma largura do catálogo/container principal */
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 var(--spacing-md);
     text-align: justify; /* Texto justificado */
@@ -1237,16 +1237,22 @@ body {
     font-size: 1.125rem;
     line-height: 1.8;
     color: var(--text-secondary);
-    margin: 0; /* Remove margens extras */
+    margin: 0;
 }
 
 .intro-logo-wrapper {
     margin: 2rem auto;
-    padding: 0 1rem;
+    padding: 0 0.2rem;
     display: flex;
     justify-content: center;
 }
-.big-brand-logo { width: 100%; height: auto; max-height: 200px; object-fit: contain; }
+.big-brand-logo { width: 40%; height: auto; max-height: 200px; object-fit: contain; }
+
+@media (max-width: 768px) {
+    .big-brand-logo {
+        width: 100%;
+    }
+}
 
 /* Estilo específico para icones FontAwesome nos links */
 .card-link-icon { font-size: 1.1rem; color: #64748b; transition: color 0.2s; }
@@ -1263,17 +1269,17 @@ body {
    ============================================ */
 
 .footer {
-    background-color: #0f172a; /* Dark Slate background */
+    background-color: #0f172a;
     color: #e2e8f0;
     padding: 4rem 1.5rem 2rem;
     margin-top: 5rem;
-    border-top: 4px solid #3b82f6; /* Top accent border */
+    border-top: 4px solid #3b82f6;
 }
 
 /* Layout Grid: Logo | Address | Contacts | Social */
 .footer-layout {
     display: grid;
-    grid-template-columns: 180px 1.2fr 1fr 0.8fr; /* Logo size fixed, others proportional */
+    grid-template-columns: 180px 1.2fr 1fr 0.8fr;
     gap: 3rem;
     max-width: 1400px;
     margin: 0 auto 3rem;
@@ -1285,7 +1291,7 @@ body {
     width: 100%;
     max-width: 160px;
     height: auto;
-    border-radius: 50%; /* Faz o logo redondo como na imagem do CEI original */
+    border-radius: 50%;
     background: white;
     padding: 2px;
 }
@@ -1307,9 +1313,9 @@ body {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%; /* Full width line like the image */
+    width: 100%;
     height: 1px;
-    background-color: #3b82f6; /* Blue Accent */
+    background-color: #3b82f6;
 }
 
 /* Text Content */
@@ -1322,7 +1328,7 @@ body {
 
 /* Links (Phone, Email) */
 .footer-link {
-    color: #3b82f6; /* Blue text like the green in image */
+    color: #3b82f6;
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -1341,12 +1347,12 @@ body {
 
 .social-icon {
     font-size: 1.2rem;
-    color: #ffffff; /* White icons */
+    color: #ffffff;
     transition: transform 0.2s, color 0.2s;
 }
 
 .social-icon:hover {
-    color: #3b82f6; /* Blue on hover */
+    color: #3b82f6;
     transform: translateY(-3px);
 }
 
@@ -1375,14 +1381,14 @@ body {
 /* RESPONSIVE (Mobile) */
 @media (max-width: 1024px) {
     .footer-layout {
-        grid-template-columns: 1fr 1fr; /* 2 columns tablet */
+        grid-template-columns: 1fr 1fr;
         gap: 2rem;
     }
 }
 
 @media (max-width: 768px) {
     .footer-layout {
-        grid-template-columns: 1fr; /* 1 column mobile */
+        grid-template-columns: 1fr;
         text-align: center;
     }
     
@@ -1393,7 +1399,6 @@ body {
     }
 
     .footer-heading::after {
-        /* Keep line centered or full width on mobile */
         width: 100%; 
     }
 }
@@ -1404,6 +1409,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Fica atrás do conteúdo */
+    z-index: -1;
     pointer-events: none;
 }
