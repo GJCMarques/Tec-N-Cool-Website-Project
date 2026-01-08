@@ -2688,5 +2688,30 @@
         "trailer": "https://www.youtube.com/watch?v=qzuNpOqtBM0",
         "synopsis": "After losing everything, Hyun-soo (Park Yong-ha) spends five years glued to the computer screen as an unshaven, full-time \"ant\" (individual investor). He eventually reaches the top of the game after a painful diet of instant noodles and sacrificing the cost of three luxury sedans. He vows to quit once and for all when he achieves his goal, a nine-digit savings account that will support his mother and studious younger brother.",
         "image": "thumbnails/The_Scam_film.png"
-    }
+    },
+{
+    "id": 118,
+    "title": "The New Corporation: The Unfortunately Necessary Sequel",
+    "director": "Joel Bakan, Jennifer Abbott",
+    "release_date": "2020-09-13",
+    "cast": [
+        "Anjali Appadurai",
+        "Anand Giridharadas",
+        "Charles Officer",
+	"Chris Barrett",
+	"Heidi Boghosian",
+	"Nick Hanauer",
+	"Robert Reich"
+    ],
+    "production": "Betsy Carson, Trish Dolman",
+    "distribution": "Madman Entertainment, Grant Street Productions",
+    "screenwriting": "Joel Bakan",
+    "genre": [
+        "Documentary",
+        "Economy"
+    ],
+    "trailer": "https://www.youtube.com/watch?v=6XOKubtzpKc",
+    "synopsis": "The sequel to the influential documentary 'The Corporation' reveals how the corporate takeover of society is being justified by a clever rebranding, where companies present themselves as socially conscious entities while threatening democratic freedoms.",
+    "image": "../thumbnails/The_New_Corporation_film.jpg"
+}
 ]
